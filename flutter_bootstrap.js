@@ -17,8 +17,8 @@ _flutter.loader.load({
     let app = await engine.runApp();
     // Make this `app` object available to your JS app.
 
-    console.log(`Current browser locale: ${Navigator.language}`);
-
+//    console.log(`Current browser locale: ${Navigator.language}`);
+//
     let viewId = app.addView({
       hostElement: document.querySelector('.flutter-view'),
       initialData: window.gintoSettings,
